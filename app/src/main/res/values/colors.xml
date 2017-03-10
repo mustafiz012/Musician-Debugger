@@ -4,4 +4,7 @@
     <color name="ColorPrimaryDark">#E64A19</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="color_primary">#fafafa</color>
+    <color name="primary_dark">#e09721</color>
+    <color name="font_color_action_bar_title">#E6252525</color>
 </resources>

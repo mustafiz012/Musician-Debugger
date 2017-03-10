@@ -18,33 +18,51 @@
 
         <Button
             android:id="@+id/songList"
-            android:layout_width="56dp"
+            android:layout_width="48dp"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
-            android:background="@drawable/actionbar_back" />
+            android:background="@drawable/actionbar_back_btn_white" />
 
         <View
             android:layout_width="2dp"
             android:layout_height="match_parent"
             android:background="@color/black_overlay" />
 
-
-        <TextView
-            android:id="@+id/currentSong"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_alignBottom="@+id/songList"
-            android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/songList"
             android:gravity="center"
-            android:ellipsize="marquee"
-            android:singleLine="true"
-            android:scrollHorizontally="true"
-            android:marqueeRepeatLimit="marquee_forever"
-            android:text="Nothing..."
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/accent_material_dark" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/currentSong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/songList"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/songList"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Nothing..."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/accent_material_dark"
+                android:textSize="20dip" />
+
+            <TextView
+                android:id="@+id/currentSongArtistName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="------"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#cfcfff"
+                android:textSize="13dip" />
+
+        </LinearLayout>
 
         <View
             android:layout_width="2dp"

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Musician-TempOne.iml" filepath="$PROJECT_DIR$/Musician-TempOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Musician-Debugger.iml" filepath="$PROJECT_DIR$/Musician-Debugger.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
